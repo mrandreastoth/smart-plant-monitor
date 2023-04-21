@@ -14,7 +14,7 @@
  
 Overall features:
 - Low power and small size (45x45x10mm)
-- Rechargeable and programable with Arduino
+- Rechargeable and programmable with Arduino
 - By adding a USB port to a small solar panel you've created a simple add-on 
 - Can communicate via WIFI or Bluetooth
 - One device can stay plugged in all the time (act as hub) while the others send updates to it (low power mode)
@@ -23,7 +23,7 @@ Overall features:
 Back of the main board. Features:
 - ESP32-S3 supports capacitance measuring directly, through the touchpad circuitry
 - TP4056 charging + protection circuit
-- USB C with 5.1K resistors added
+- USB-C with 5.1K resistors added
 - 3.3V LDO for powering everything
 - Circuitry for a 1.54" E-Paper display (goes on the back)
 - AHT20 IC for local air humidity and temperature measurement
@@ -43,7 +43,7 @@ Front of the main board. Features:
 Soil probe. Features:
 - No components and connectors added, just the bare PCB
 - Cheap and easy to replace when they eventually breakdown in the soil
-- Solder pads avaialble if you'd like to add a 0603 component (LED or Thermistor for soil surface temperature). Connected to GPIO through a 2K resistor
-- Can be in any size and shape you'd like as long as the top matches the conector (calibration and adjustments are done in software)
+- Solder pads available if you'd like to add a 0603 component (LED or thermistor for soil surface temperature). Connected to GPIO through a 2K resistor
+- Can be in any size and shape you'd like as long as the top matches the connector (calibration and adjustments are done in software)
 
 
